@@ -27,8 +27,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---------------- HEADER ----------------
-st.markdown('<p class="big-title">💊 Drug Decay Intelligence Dashboard</p>', unsafe_allow_html=True)
-st.markdown("#### 🚀 Real-time Pharmacokinetic Modeling using Laplace Transform")
+st.markdown('<p class="big-title"> Drug Decay Intelligence Dashboard</p>', unsafe_allow_html=True)
+st.markdown("####  Real-time Pharmacokinetic Modeling using Laplace Transform")
 
 # ---------------- SIDEBAR ----------------
 st.sidebar.header("⚙️ Controls")
@@ -69,7 +69,7 @@ fig.add_hline(y=80, line_dash="dash", line_color="red", annotation_text="Toxic L
 
 fig.update_layout(
     template="plotly_dark",
-    title="📈 Drug Concentration Dynamics",
+    title=" Drug Concentration Dynamics",
     xaxis_title="Time (hours)",
     yaxis_title="Concentration",
     hovermode="x unified"
@@ -78,7 +78,7 @@ fig.update_layout(
 st.plotly_chart(fig, use_container_width=True)
 
 # ---------------- TABS ----------------
-tab1, tab2 = st.tabs(["📊 Insights", "🔄 Compare Drugs"])
+tab1, tab2 = st.tabs([" Insights", " Compare Drugs"])
 
 # -------- INSIGHTS --------
 with tab1:
